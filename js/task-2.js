@@ -1,9 +1,7 @@
 class Storage {
     #items= [];
     constructor(params) {
-        if (Array.isArray(params)) {
             this.#items = params;
-        }
     }
     getItems() {
         return this.#items;
